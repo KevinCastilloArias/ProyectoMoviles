@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|c:\\users\\kevin\\documents\\github\\proyectomoviles\\proyecto\\backend\\entidades\\entidad\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|c:\\users\\kevin\\onedrive\\documents\\github\\proyectomoviles\\proyecto\\backend\\entidades\\response\\resbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|solutionrelative:entidades\\response\\resbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|c:\\users\\kevin\\onedrive\\documents\\github\\proyectomoviles\\proyecto\\backend\\entidades\\response\\resingresararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|solutionrelative:entidades\\response\\resingresararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|c:\\users\\kevin\\onedrive\\documents\\github\\proyectomoviles\\proyecto\\backend\\entidades\\request\\reqingresararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|solutionrelative:entidades\\request\\reqingresararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|c:\\users\\kevin\\onedrive\\documents\\github\\proyectomoviles\\proyecto\\backend\\entidades\\entidad\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65FAE925-B39D-494C-8166-BFC642E299FD}|BackEnd.csproj|solutionrelative:entidades\\entidad\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,15 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResIngresarArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Response\\ResIngresarArticulo.cs",
+              "RelativeDocumentMoniker": "Entidades\\Response\\ResIngresarArticulo.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Response\\ResIngresarArticulo.cs",
+              "RelativeToolTip": "Entidades\\Response\\ResIngresarArticulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T22:29:04.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResBase.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Response\\ResBase.cs",
+              "RelativeDocumentMoniker": "Entidades\\Response\\ResBase.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Response\\ResBase.cs",
+              "RelativeToolTip": "Entidades\\Response\\ResBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T22:28:44.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReqIngresarArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Request\\ReqIngresarArticulo.cs",
+              "RelativeDocumentMoniker": "Entidades\\Request\\ReqIngresarArticulo.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Request\\ReqIngresarArticulo.cs",
+              "RelativeToolTip": "Entidades\\Request\\ReqIngresarArticulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T22:28:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Entidad\\Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Entidad\\Articulo.cs",
               "RelativeDocumentMoniker": "Entidades\\Entidad\\Articulo.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Entidad\\Articulo.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive\\Documents\\GitHub\\ProyectoMoviles\\Proyecto\\BackEnd\\Entidades\\Entidad\\Articulo.cs",
               "RelativeToolTip": "Entidades\\Entidad\\Articulo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
