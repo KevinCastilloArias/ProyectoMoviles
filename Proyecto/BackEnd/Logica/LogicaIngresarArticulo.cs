@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd.Entidades.Response
+namespace BackEnd.Logica
 {
-    public class ResBase
+    public class LogicaIngresarArticulo
     {
     }
 }
