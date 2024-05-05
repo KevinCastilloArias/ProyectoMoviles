@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Entidades\Entidad\Articulo.cs" />
+    <Compile Include="Entidades\Entidad\Usuario.cs" />
     <Compile Include="Entidades\Request\ReqIngresarArticulo.cs" />
     <Compile Include="Entidades\Response\ResIngresarArticulo.cs" />
     <Compile Include="Logica\LogicaIngresarArticulo.cs" />

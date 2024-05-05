@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Entidades
 {
-    public class Roll
+    public class Usuario
     {
     }
 }
