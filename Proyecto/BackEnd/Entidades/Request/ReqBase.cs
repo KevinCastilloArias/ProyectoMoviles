@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Collections.Specialized.BitVector32;
 
 namespace BackEnd.Entidades
 {
-    public class ResBase
+   public class ReqBase
     {
-        public bool resultado { get; set; }
-        public List<String> listaDeErrores = new List<String>();
+        public Sesion sesion { get; set; }
     }
 }
