@@ -4,3 +4,9 @@ C:\Users\kevin\Documents\GitHub\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackE
 C:\Users\kevin\Documents\GitHub\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Documents\GitHub\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.dll
 C:\Users\kevin\Documents\GitHub\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\bin\Debug\BackEnd.dll
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\bin\Debug\BackEnd.pdb
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\usuario\OneDrive\Documents\ProyectoMoviles\Proyecto\BackEnd\obj\Debug\BackEnd.pdb
