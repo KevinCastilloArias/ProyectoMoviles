@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd.Entidades.Request
+namespace BackEnd.Entidades
 {
-    internal class ReqIngresarArticulo
+    public class ReqIngresarArticulo : ReqBase
     {
     }
 }

@@ -44,9 +44,11 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Entidades\Entidad\Articulo.cs" />
     <Compile Include="Entidades\Entidad\Usuario.cs" />
+    <Compile Include="Entidades\Request\ReqBase.cs" />
     <Compile Include="Entidades\Request\ReqIngresarArticulo.cs" />
+    <Compile Include="Entidades\Response\ResBase.cs" />
     <Compile Include="Entidades\Response\ResIngresarArticulo.cs" />
-    <Compile Include="Logica\LogicaIngresarArticulo.cs" />
+    <Compile Include="Logica\LogicaArticulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd.Logica
+namespace BackEnd.Utiliarios
 {
-    public class LogicaIngresarArticulo
+    internal class Utiliarios
     {
     }
 }
