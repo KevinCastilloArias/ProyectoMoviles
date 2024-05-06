@@ -50,6 +50,7 @@
     <Compile Include="Entidades\Response\ResIngresarArticulo.cs" />
     <Compile Include="Logica\LogicaArticulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utiliarios\Utiliarios.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
