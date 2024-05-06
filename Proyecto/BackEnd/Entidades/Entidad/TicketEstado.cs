@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Entidades
 {
-    public class Categoria
+    public class TicketEstado
     {
-        public int ID_CATEGORIA { get; set; }
+        public int ID_ESTADO { get; set; }
         public string NOMBRE { get; set; }
     }
 }
