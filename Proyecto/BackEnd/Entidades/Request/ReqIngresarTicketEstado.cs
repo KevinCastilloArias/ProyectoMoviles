@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd.Entidades.Request
+namespace BackEnd.Entidades
 {
-    internal class ReqIngresarTicketEstado
+    public class ReqIngresarTicketEstado:ReqBase
     {
+        public TicketEstado ticketEstado { get; set; }
     }
 }
