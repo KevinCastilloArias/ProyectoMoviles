@@ -8,5 +8,6 @@ namespace BackEnd.Entidades.Entidad
 {
     internal class Rol
     {
+        public int ID_ROl { get; set; }
     }
 }
