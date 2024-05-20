@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Entidades
 {
-    public class ReqIngresarArticulo : ReqBase
+    public class ResObtenerArticulo : ResBase
     {
-        public Articulo articulo { get; set; }
+        public List<Articulo> listaArticulos = new List<Articulo>();
     }
 }
