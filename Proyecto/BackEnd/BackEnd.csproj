@@ -50,9 +50,13 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Entidades\Entidad\Articulo.cs" />
     <Compile Include="Entidades\Entidad\Usuario.cs" />
+    <Compile Include="Entidades\Request\ReqActualizarArticulo.cs" />
     <Compile Include="Entidades\Request\ReqBase.cs" />
+    <Compile Include="Entidades\Request\ReqEliminarArticulo.cs" />
     <Compile Include="Entidades\Request\ReqIngresarArticulo.cs" />
+    <Compile Include="Entidades\Response\ResActualizarArticulo.cs" />
     <Compile Include="Entidades\Response\ResBase.cs" />
+    <Compile Include="Entidades\Response\ResEliminarArticulo.cs" />
     <Compile Include="Entidades\Response\ResIngresarArticulo.cs" />
     <Compile Include="Entidades\Response\ResObtenerArticulo.cs" />
     <Compile Include="Logica\LogicaArticulo.cs" />
