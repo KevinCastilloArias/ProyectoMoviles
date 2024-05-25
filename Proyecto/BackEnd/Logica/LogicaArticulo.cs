@@ -1,6 +1,7 @@
 ﻿using BackEnd.AccesoDatos;
 using BackEnd.Entidades;
 using BackEnd.Utiliarios;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,7 +87,7 @@ namespace BackEnd.Logica
             finally
             {
                 // Se bitacorea todo resultado. Exitoso o no exitoso.
-                Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
+                //Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
             }
             return res;
         }
@@ -125,7 +126,7 @@ namespace BackEnd.Logica
             finally
             {
                 // Se bitacorea todo resultado. Exitoso o no exitoso.
-                Utilitarios.Utilitarios.CrearBitacora(res.listaDeMensajes, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
+               // Utilitarios.Utilitarios.CrearBitacora(res.listaDeMensajes, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
             }
             return res;
         }
@@ -205,7 +206,7 @@ namespace BackEnd.Logica
             finally
             {
                 // Se bitacorea todo resultado. Exitoso o no exitoso.
-                Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
+                //Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
             }
             return res;
         }
@@ -251,7 +252,7 @@ namespace BackEnd.Logica
             finally
             {
                 // Se bitacorea todo resultado. Exitoso o no exitoso.
-                Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
+               // Utilitarios.Utilitarios.CrearBitacora(res.listaDeErrores, tipoRegistro, MethodBase.GetCurrentMethod().DeclaringType.Name, MethodBase.GetCurrentMethod().Name, JsonConvert.SerializeObject(req), JsonConvert.SerializeObject(res));
             }
             return res;
         }
