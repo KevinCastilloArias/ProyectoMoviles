@@ -20,24 +20,24 @@ namespace ApiProyecto.Controllers
 
         [System.Web.Http.HttpGet]
         [System.Web.Http.Route("api/articulo/listar")]
-        public ResObtenerArticulo obtenerArticulo()
+        public ResObtenerArticulo obtenerArticulos()
         {
-            return new LogArticulo().obtenerArticulo();
+            return new LogArticulo().ObtenerArticulos();
         }
 
         [System.Web.Http.HttpPut]
         [System.Web.Http.Route("api/articulo/actualizar")]
-        public ResIngresarArticulo actualizarArticulo(ReqIngresarArticulo req)
+        public ResActualizarArticulo actualizarArticulo(ReqActualizarArticulo req)
         {
-            return new LogArticulo().actualizarArticulo(req);
+            return new LogArticulo().ActualizarArticulo(req);
         }
 
 
         [System.Web.Http.HttpDelete]
         [System.Web.Http.Route("api/articulo/eliminar/{id}")]
-        public ResIngresarArticulo eliminarArticulo(int id)
+        public ResEliminarArticulo eliminarArticulo(ReqEliminarArticulo id)
         {
-            return new LogArticulo().eliminarArticulo(id);
+            return new LogArticulo().EliminarArticulo(id);
         }
     }
 }

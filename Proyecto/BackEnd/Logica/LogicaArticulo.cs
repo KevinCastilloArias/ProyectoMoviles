@@ -64,7 +64,7 @@ namespace BackEnd.Logica
                     int? idReturn = 0;
                     int? idError = 0;
                     String errorBD = "";
-                    linq.SP_INGRESAR_ARTICULO(req.articulo.NOMBRE, req.articulo.DESCRIPCION, req.articulo.CANTIDAD_DISPONIBLE, req.articulo.PRECIO, req.articulo.IMAGEN, req.articulo.ID_CATEGORIA, ref idReturn, ref idError, ref errorBD);
+                    linq.SP_AgregarArticulo(req.articulo.NOMBRE, req.articulo.DESCRIPCION, req.articulo.CANTIDAD_DISPONIBLE, req.articulo.PRECIO, req.articulo.IMAGEN, req.articulo.ID_CATEGORIA, ref idReturn, ref idError, ref errorBD);
                     if (idError == null || idError == 0)
                     {
                         res.resultado = false;
@@ -101,7 +101,7 @@ namespace BackEnd.Logica
                 // ...
 
                 ConexionDataContext linq = new ConexionDataContext();
-                List<Articulo> articulos = linq.SP_OBTENER_ARTICULOS();
+                List<Articulo> articulos = linq.SP_ObtenerArticulos();
 
                 if (articulos == null || articulos.Count == 0)
                 {
@@ -182,7 +182,7 @@ namespace BackEnd.Logica
                 ConexionDataContext linq = new ConexionDataContext();
                 int? idError = 0;
                 String errorBD = "";
-                linq.SP_ACTUALIZAR_ARTICULO(req.articulo.ID, req.articulo.NOMBRE, req.articulo.DESCRIPCION, req.articulo.CANTIDAD_DISPONIBLE, req.articulo.PRECIO, req.articulo.IMAGEN, req.articulo.ID_CATEGORIA, ref idError, ref errorBD);
+                linq.SP_AcutalizarArticulo(req.articulo.ID_ARTICULO, req.articulo.NOMBRE, req.articulo.DESCRIPCION, req.articulo.CANTIDAD_DISPONIBLE, req.articulo.PRECIO, req.articulo.IMAGEN, req.articulo.ID_CATEGORIA, ref idError, ref errorBD);
 
                 if (idError == null || idError == 0)
                 {
@@ -228,7 +228,7 @@ namespace BackEnd.Logica
                 ConexionDataContext linq = new ConexionDataContext();
                 int? idError = 0;
                 String errorBD = "";
-                linq.SP_ELIMINAR_ARTICULO(req.idArticulo, ref idError, ref errorBD);
+                linq.SP_EliminarArticulo(req.idArticulo, ref idError, ref errorBD);
 
                 if (idError == null || idError == 0)
                 {
