@@ -13,7 +13,7 @@ namespace BackEnd.Entidades
         public int ID_TICKET_SOLICITUD { get; set; }
         public string ID_USUARIO { get; set; }
         public string DETALLE {  get; set; }
-        public string FECHA_VISITA {  get; set; }
+        public DateTime FECHA_VISITA {  get; set; }
         
     }
 }
